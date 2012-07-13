@@ -18,6 +18,9 @@ from lfs.catalog.models import ProductsPropertiesRelation
 
 from lfs_rest.api import ProductResource
 
+# http://django-tastypie.readthedocs.org/en/latest/testing.html
+# http://stackoverflow.com/questions/971667/django-orm-how-to-view-or-log-the-executed-query
+# http://dabapps.com/blog/logging-sql-queries-django-13/
 
 class ProductTestCase(ResourceTestCase):
     """
